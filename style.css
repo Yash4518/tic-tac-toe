@@ -1,0 +1,19 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  border: 1px solid #ccc; /* Add this to see the grid clearly */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
